@@ -1,6 +1,8 @@
-function añadir(x) {
+function añadir(descripcion) {
   
-  return x;
+  alert("No es posible registrar una tarea pendiente sin descripción.");
+
+  return descripcion;
 }
 
 export default añadir;
